@@ -1,6 +1,8 @@
-no = int(input("Please enter a number from 1-6: "))
+import random
+input = input("Would you like to roll the dice?(Enter y or n): "))
+no = random.randint(1,6)
 
-if no == 1:
+if input == "y":
     print("[-----]")
     print("[     ]")
     print("[  0  ]")
@@ -35,4 +37,7 @@ if no == 6:
     print("[0   0]")
     print("[0   0]")
     print("[0   0]")
-    print("[-----]")
+    print("[-----]")]
+    
+if input=="n"
+print("okay!")
